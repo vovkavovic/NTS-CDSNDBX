@@ -1,0 +1,10 @@
+.yarn
+.next
+.vscode
+,idea
+node_modules
+dist
+build
+public
+*.md
+*.log
