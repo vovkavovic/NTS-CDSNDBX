@@ -1,29 +1,26 @@
 {
-	"setupTasks": [
-		{
-			"name": "Installing dependencies",
-			"command": "yarn install"
-		}
-	],
-	"tasks": {
-		"install": {
-			"name": "Install dependencies",
-			"command": "yarn install"
-		},
-		"lint": {
-			"name": "Lint",
-			"command": "yarn lint"
-		},
-		"dev": {
-			"name": "Development",
-			"command": "yarn dev"
-		}
-	},
-	"portTasks": {
-		"3000": {
-			"name": "App",
-			"command": "yarn dev",
-			"runAtStart": true
-		}
-	}
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Installing dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "install": {
+      "name": "Install dependencies",
+      "command": "yarn install"
+    },
+    "lint": {
+      "name": "Lint",
+      "command": "yarn lint"
+    },
+    "dev": {
+      "name": "Development",
+      "command": "yarn dev",
+      "runAtStart": true
+    }
+  }
 }
