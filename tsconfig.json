@@ -27,7 +27,8 @@
 			"@pages/*": ["pages/*"],
 			"@styles/*": ["styles/*"],
 			"@theme/*": ["theme/*"],
-			"@utils/*": ["utils/*"]
+			"@types": ["types/index"],
+			"@utils": ["utils/index"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"],

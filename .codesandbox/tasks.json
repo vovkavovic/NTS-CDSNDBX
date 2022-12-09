@@ -1,29 +1,23 @@
 {
-	"setupTasks": [
-		{
-			"name": "Installing dependencies",
-			"command": "yarn install"
-		}
-	],
-	"tasks": {
-		"install": {
-			"name": "Install dependencies",
-			"command": "yarn install"
-		},
-		"lint": {
-			"name": "Lint",
-			"command": "yarn lint"
-		},
-		"dev": {
-			"name": "Development",
-			"command": "yarn dev"
-		}
-	},
-	"portTasks": {
-		"3000": {
-			"name": "App",
-			"command": "yarn dev",
-			"runAtStart": true
-		}
-	}
+  "setupTasks": [
+    {
+      "name": "Installing dependencies",
+      "command": "yarn install"
+    }
+  ],
+  "tasks": {
+    "install": {
+      "name": "Install dependencies",
+      "command": "yarn install"
+    },
+    "lint": {
+      "name": "Lint",
+      "command": "yarn lint"
+    },
+    "dev": {
+      "name": "Development",
+      "command": "yarn dev",
+      "runAtStart": true
+    }
+  }
 }
