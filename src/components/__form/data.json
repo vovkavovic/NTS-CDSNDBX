@@ -5,7 +5,7 @@
 		"conditional": null,
 		"label": "First Name",
 		"name": "first-name",
-		"placeholder": "TextField Dynamic Rendered",
+		"placeholder": "Text Dynamic Rendered",
 		"required": true,
 		"type": "text"
 	},
@@ -13,10 +13,30 @@
 		"id": 1,
 		"class": null,
 		"conditional": null,
-		"label": "First Name",
-		"name": "first-name",
-		"placeholder": "TextField Dynamic Rendered",
+		"label": "Email",
+		"name": "email",
+		"placeholder": "Email Dynamic Rendered",
 		"required": true,
 		"type": "email"
+	},
+	{
+		"id": 2,
+		"class": null,
+		"conditional": null,
+		"label": "Email",
+		"name": "email",
+		"placeholder": "Textarea Dynamic Rendered",
+		"required": true,
+		"type": "textarea"
+	},
+	{
+		"id": 3,
+		"class": null,
+		"conditional": null,
+		"label": "Submit",
+		"name": "Submit",
+		"placeholder": "Submit Dynamic Rendered",
+		"required": true,
+		"type": "submit"
 	}
 ]

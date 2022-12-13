@@ -28,7 +28,8 @@
 			"@styles/*": ["styles/*"],
 			"@theme/*": ["theme/*"],
 			"@types": ["types/index"],
-			"@utils": ["utils/index"]
+			"@utils": ["utils/index"],
+			"@hooks/*": ["hooks/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"],
